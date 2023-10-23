@@ -1,0 +1,24 @@
+.nav-bar{
+    width: 100%;
+    display: flex;
+    padding: 1rem;
+    justify-content: start;
+    align-items: center;
+    gap: 1rem;
+    background-color: var(--secondary-color);
+
+}
+
+ .active{
+    color: red;
+ }
+
+ .inactive{
+    color: black;
+ }
+
+ a{
+    text-decoration: none;
+    border-radius: 12px;
+    padding: 0 5px;
+ }

@@ -1,0 +1,47 @@
+.email-tab-container{
+    display: flex;
+    align-items: start;
+    color:var(--text-color);
+    font-size: 14px;
+    padding: 0.5rem;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    background-color: white;
+    overflow: hidden;
+}
+
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 1rem;
+}
+
+.profile-circle{
+    width: 3rem;
+    height: 3rem;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--secondary-color);
+    font-size: 28px;
+}
+
+.email-info{
+    line-height: 24px;
+}
+
+.email-info span{
+    font-weight: 800;
+}
+
+.email-info {
+    text-overflow: ellipsis; 
+    white-space: nowrap;
+    overflow: hidden;
+}
+.date-other-info p:nth-child(2){
+    color:var(--primary-color)
+}
